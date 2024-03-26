@@ -1,0 +1,62 @@
+.svg-item {
+  width: 45%;
+  font-size: 16px;
+  margin: 0 auto;
+  animation: donutfade 1s;
+}
+
+.donut-ring {
+  stroke: #ebebeb;
+}
+
+.donut-segment-3 {
+  stroke: #d9e021;
+  animation: donut2 3s;
+}
+
+.donut-segment-4 {
+  stroke: #ed1e79;
+  animation: donut3 3s;
+}
+
+.segment-3 {
+  fill: #d9e021;
+}
+
+.donut-text {
+  font-family: Arial, Helvetica, sans-serif;
+  fill: #ff6200;
+}
+
+.donut-text-2 {
+  fill: #d9e021;
+}
+
+.donut-label {
+  font-size: 0.28em;
+  font-weight: 700;
+  line-height: 1;
+  fill: #000;
+  transform: translateY(0.25em);
+}
+
+.donut-percent {
+  font-size: 0.5em;
+  line-height: 1;
+  transform: translateY(0.5em);
+  font-weight: bold;
+}
+
+.donut-data {
+  font-size: 0.12em;
+  line-height: 1;
+  transform: translateY(0.5em);
+  text-align: center;
+  text-anchor: middle;
+  color: #666;
+  fill: #666;
+  animation: donutfadelong 1s;
+}
+circle {
+  transition: stroke-dasharray 0.9 ease-in;
+}

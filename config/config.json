@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "meter-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/meterWebpart/MeterWebpartWebPart.js",
+          "manifest": "./src/webparts/meterWebpart/MeterWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MeterWebpartWebPartStrings": "lib/webparts/meterWebpart/loc/{locale}.js"
+  }
+}
